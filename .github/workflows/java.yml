@@ -28,6 +28,7 @@ jobs:
           - 17
           - 19
           - 21
+          - 21-graalvm
           - 22
     steps:
       - uses: actions/checkout@v4
