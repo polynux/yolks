@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH graalvm/jdk-community:21
+FROM        --platform=$TARGETOS/$TARGETARCH ghcr.io/graalvm/jdk-community:21
 
 LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
 
